@@ -1,0 +1,141 @@
+<app-application-details-header (toggleSidebar)="toggleSidebar()"></app-application-details-header>
+<div class="wrapper d-flex align-items-stretch">
+  <nav id="sidebar" class="border-right">
+    <div class="sidebar-sticky">
+      <div class="row justify-content-around mt-3" style="margin:0;">
+        <div class="col-md-3 col-sm-2 col-xs-1 text-center">
+          <div class="text-center icons-holder pt-2" style="background-color: #606c7f;">
+            <img src="../assets/images/house.png" height="35" />
+          </div>
+          <p class="text-dark">Home</p>
+        </div>
+
+        <div class="col-md-3 col-sm-2 col-xs-1 text-center">
+          <div class="text-center icons-holder pt-2" style="background-color: #704eac;">
+            <img src="../assets/images/bar-chart.png" height="35" />
+          </div>
+          <p class="text-dark">Reports</p>
+        </div>
+
+        <div class="col-md-3 col-sm-2 col-xs-1 text-center">
+          <div class="text-center icons-holder pt-2" style="background-color: #754fa7;">
+            <img src="../assets/images/transaction.svg" height="35" />
+          </div>
+          <p class="text-dark">Transactions</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-around mt-3 " style="margin:0;">
+        <div class="col-md-3 col-sm-2 col-xs-1 text-center">
+          <div class="text-center icons-holder pt-3" style="background-color: #03c0ad;">
+            <img src="../assets/images/tag.svg" height="35" />
+          </div>
+          <p class="text-dark">Items</p>
+        </div>
+
+        <div class="col-md-3 col-sm-2 col-xs-1 text-center">
+          <div class="text-center icons-holder pt-3" style="background-color: #a14b99;">
+            <img src="../assets/images/id-card.svg" height="35" />
+          </div>
+          <p class="text-dark">Customers</p>
+        </div>
+
+        <div class="col-md-3 col-sm-2 col-xs-1 text-center">
+          <div class="text-center icons-holder pt-3" style="background-color: #48a4d2
+;">
+            <img src="../assets/images/team.svg" height="32" />
+          </div>
+          <p class="text-dark">Team</p>
+        </div>
+      </div>
+
+      <div class="row mt-3 justify-content-around mt-3" style="margin:0;">
+        <div class="col-md-3 col-sm-2 col-xs-1 text-center">
+          <div class="text-center icons-holder pt-2" style="background-color: #60697a
+;">
+            <img src="../assets/images/settings.svg" height="35" />
+          </div>
+          <p class="text-dark">Accounts & Settings</p>
+        </div>
+
+        <div class="col-md-3 col-sm-2 col-xs-1 text-center">
+          <div class="text-center icons-holder pt-2" style="background-color: #00bdaf;">
+            <img src="../assets/images/order.svg" height="35" />
+          </div>
+          <p class="text-dark">Orders</p>
+        </div>
+        <div class="col-md-3 col-sm-2 col-xs-1 text-center">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content  -->
+  <div id="content" class="p-4 p-md-4 pt-5">
+    <div class="container-fluid vh-100">
+      <div class="row">
+        <main role="main" class="col-lg-9">
+          <div>
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <select class="form-control w-25 font-weight-bold bg-gray">
+                  <option selected>default</option>
+                </select>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-12">
+                <h3 class="font-weight-bold">Welcome back. Here's your business at a glance.</h3>
+              </div>
+              <div>
+                <h5 class="pt-4 ml-3 font-weight-bold">Today</h5>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 py-2" style="padding-right:unset !important">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-title text-muted pt-2">Gross Sales</p>
+                    <h3 class="card-text text-muted">No sales yet today
+                      <img src="../assets/images/right-arrow.svg" height="10" />
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 py-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-title text-muted pt-2">Transactions</p>
+                    <h3 class="card-text text-muted">No sales yet today
+                      <img src="../assets/images/right-arrow.svg" height="10" />
+                    </h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 py-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-title font-weight-bold">Payment Types <img src="../assets/images/right-arrow.svg"
+                        height="10" /></p>
+                    <h3 class="card-text text-muted py-2 mt-2">No sales yet today</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 py-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-title font-weight-bold">Top items by sales <img
+                        src="../assets/images/right-arrow.svg" height="10" /></p>
+                    <h3 class="card-text text-muted py-2 mt-2">No item sales today</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+</div>

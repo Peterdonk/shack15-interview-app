@@ -1,0 +1,35 @@
+<app-application-header></app-application-header>
+
+<main>
+  <section class="text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-9 col-md-9 mx-auto">
+        <h1 class="fw-light text-left h1 font-weight">Applications</h1>
+        <p class="pt-3 lead text-muted text-left app-text-color">
+          Each application provides a unique set of API Keys and configuration settings needed for making requests to
+          Square APIs.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-9 col-md-9 mx-auto">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <app-application-card applicationId="8991c020-d28a-11eb-b8bc-0242ac130003" applicationName="App">
+            </app-application-card>
+          </div>
+          <div class="col-md-6 mb-4">
+            <app-application-card applicationId="94272880-d28b-11eb-b8bc-0242ac130003" applicationName="SHACK15 App">
+            </app-application-card>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div
+              class="app-card p-5 text-white add-card set-card-radius d-flex align-items-center justify-content-center">
+              <img src="../assets/images/plus.svg" height="60px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
